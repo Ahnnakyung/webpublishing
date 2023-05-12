@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Position Relative Homework</title>
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+	<style>
+        *{
+	        box-sizing: border-box;
+        }
+        .service-docu{
+	        width: 800px;
+	        margin-left: auto;
+	        margin-right: auto;
+	        font-family: 'Nanum Gothic', sans-serif;
+	        border-bottom: 1px solid #efefef;
+        }
+        .service-info{
+	        width: 500px;
+	        height: 360px;
+	        display: inline-block;
+	        margin-top: 0;
+	        margin-right: 20px;	
+	        padding: 20px 0;    		
+	        vertical-align: top;
+	        font-size: 20px;
+	        color: #333;
+	        line-height: 25px;
+	        letter-spacing: -0.2px;
+        }
+
+        .service-info p{
+	        font-size: 15px;
+        }   
+        .service-info .service-name{
+	        color: rgb(255, 214, 229);
+        }
+
+        .service-image{
+	        padding: 20px 10px;
+	        display: inline-block;
+	        position: relative;
+        }
+        img{
+	        height: 280px;
+            box-shadow: 5px 5px 10px #cccccc;
+        }
+        .service-image .main-image{
+	        position: absolute;
+	        top: 50px;
+	        left: 40px;	
+        }
+
+    </style>
+</head>
+<body>
+	<div class="service-docu">
+		<div class="service-info">
+			<h2 class="service-name">Apple</h2>
+			<h2>애플</h2>
+			<p>애플은 미국 캘리포니아의 아이폰, 아이패드, 애플 워치, 에어팟, 아이맥, 맥북, 맥 스튜디오와 맥 프로, 홈팟 등의 하드웨어와 iOS, iPadOS, macOS 등의 소프트웨어를 설계, 디자인하는 기업이다. 2011년부터 팀 쿡이 CEO를 맡고 있다. 또한 그 소프트웨어에 애플 앱 스토어, 뮤직, 뉴스, 아케이드, tv, 피트니스, 페이, 저장 클라우드 등의 서비스를 제공한다. 애플의 이전 명칭은 애플 컴퓨터 주식회사였는데, 스티브 잡스가 아이팟, 아이폰을 발표하면서 간단하게 애플이라고 기업 이름을 바꾸었다. 본사는 애플 캠퍼스와 애플 파크에 두고 있으며, 미국 캘리포니아주 쿠퍼티노에 소재하고 있다. 최고경영자는 팀 쿡이다.</p>
+		</div>
+		<div class="service-image">
+			<img class="main-image" src="https://i.postimg.cc/Y0d29SvP/Kakao-Talk-20230510-141252078.jpg" alt="">
+			<img class="sub-image" src="https://i.postimg.cc/XqRH9fBB/Kakao-Talk-20230510-141138842-02.jpg" alt="">
+		</div>
+	</div>
+
+	<div class="service-docu">
+		<div class="service-info">
+			<h2 class="service-name">iPhone</h2>
+			<h2>놀라움 한가득.</h2>
+			<p>미국의 기업 애플이 디자인하고 마케팅한 터치스크린 기반 휴대 전화 계열이다. 애플의 iOS 모바일 운영 체제를 사용한다. 1세대 아이폰은 애플의 공동 창립자 스티브 잡스가 2007년 1월 9일 발표하였고 제품은 2007년 6월 29일 출시되었다. 그 뒤로 애플은 해마다 새로운 아이폰 모델과 iOS 업데이트를 출시해왔다. 2018년 11월 1일 기준으로, 22억대 이상의 아이폰이 판매되었다.</p>
+		</div>
+		<div class="service-image">
+			<img class="main-image" src="https://i.postimg.cc/Sx79SSg6/Kakao-Talk-20230510-140455319.jpg" alt="">
+			<img class="sub-image" src="https://i.postimg.cc/jCYWTmN3/Kakao-Talk-20230510-140455319-01.jpg" alt="">
+		</div>
+	</div>
+
+	<div class="service-docu">
+		<div class="service-info">
+			<h2 class="service-name">Airpods</h2>
+			<h2>기기에 바로 연결되는 매혹적인 경험.</h2>
+			<p>애플에서 제조 및 판매하는 무선 방식의 이어폰이다.</p>
+		</div>
+		<div class="service-image">
+			<img class="main-image" src="https://i.postimg.cc/85jgHbcZ/Kakao-Talk-20230510-141013306.jpg" alt="">
+			<img class="sub-image" src="https://i.postimg.cc/gJfQKFf0/Kakao-Talk-20230510-141013306-01.jpg" alt="">
+		</div>
+	</div>	
+
+</body>
+</html>
